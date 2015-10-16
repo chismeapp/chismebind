@@ -19,5 +19,3 @@
 		    $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
 		    $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;	
 			};
-
-app
